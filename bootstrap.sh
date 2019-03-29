@@ -31,7 +31,7 @@ cd domain-group-server-render-demo
 sudo npm install pm2@latest -g
 
 # install dependencies and build
-yarn && yarn build && sudo yarn start
+yarn && yarn build
 
 #start up application
 sudo pm2 start npm -- start
